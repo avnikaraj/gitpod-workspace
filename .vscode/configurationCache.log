@@ -1,0 +1,1 @@
+{"buildTargets":["clear","init","logs","migrate","migrate-create","migrate-down","migrate-redo","migrate-status","migrate-up","reset","restart","seed","start","stop"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

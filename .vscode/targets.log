@@ -1,0 +1,462 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jun  8 18:07:20 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+RUBY_VERSION = ruby-2.7.6
+# automatic
+?F = $(notdir $?)
+# environment
+GP_OPEN_EDITOR = /ide/bin/remote-cli/gitpod-code
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+VSX_REGISTRY_URL = https://open-vsx.gitpod.io
+# environment
+GRADLE_HOME = /home/gitpod/.sdkman/candidates/gradle/current
+# environment
+rvm_path = /home/gitpod/.rvm
+# environment
+SUPERVISOR_ADDR = localhost:22999
+# environment
+SUPERVISOR_ENVVAR_OTS = https://gitpod.io/api/ots/get/6edcda1f-e06a-4248-a91b-4b5f961d5c29
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /workspace/gitpod-workspace
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-US","availableLanguages":{}}
+# environment
+_ = /ide/node
+# environment
+GITPOD_THEIA_PORT = 23000
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+GITPOD_ANALYTICS_WRITER = segment
+# environment
+GO_VERSION = 1.18.3
+# environment
+MAVEN_HOME = /home/gitpod/.sdkman/candidates/maven/current
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+GITPOD_WORKSPACE_CONTEXT_URL = https://github.com/avnikaraj/gitpod-workspace
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+THEIA_WORKSPACE_ROOT = /workspace/gitpod-workspace
+# environment
+INFOPATH = :/home/linuxbrew/.linuxbrew/share/info
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+GIT_EDITOR = /ide/bin/remote-cli/gitpod-code --wait
+# environment
+VSCODE_CWD = /ide
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /ide/bin/remote-cli:/home/gitpod/.nix-profile/bin:/workspace/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/.nix-profile/bin:/home/gitpod/.nix-profile/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/workspace/.cargo/bin:/home/gitpod/.rvm/gems/ruby-2.7.6/bin:/home/gitpod/.rvm/gems/ruby-2.7.6@global/bin:/home/gitpod/.rvm/rubies/ruby-2.7.6/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/workspace/go/bin:/home/gitpod/.nix-profile/bin:/ide/bin/remote-cli:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/home/gitpod/.nvm/versions/node/v16.15.1/bin:/workspace/.pip-modules/bin:/home/gitpod/.pyenv/bin:/workspace/.rvm/bin:/home/gitpod/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/gitpod/.nvm/versions/node/v16.15.1/bin:/home/gitpod/.rvm/bin:/home/gitpod/.nvm/versions/node/v16.15.1/bin:/home/gitpod/.nvm/versions/node/v16.15.1/bin
+# environment
+GITPOD_OWNER_ID = 123597a0-8fe9-4355-9749-feeebcdd234d
+# environment
+GITPOD_WORKSPACE_ID = avnikaraj-gitpodworkspa-ol1m4hrgblw
+# environment
+GITPOD_INTERVAL = 30000
+# environment
+CARGO_HOME = /workspace/.cargo
+# environment
+rvm_stored_umask = 0022
+# environment
+GITPOD_WORKSPACE_CLUSTER_HOST = ws-eu47.gitpod.io
+# environment
+GITPOD_ANALYTICS_SEGMENT_KEY = bUY8IRdJ42KjLOBS9LoIHMYFBD8rSzjU
+# environment
+SDKMAN_DIR = /home/gitpod/.sdkman
+# environment
+GITPOD_REPO_ROOTS = /workspace/gitpod-workspace
+# environment
+SDKMAN_CANDIDATES_API = https://api.sdkman.io/2
+# environment
+GOPATH = /workspace/go
+# environment
+SDKMAN_PLATFORM = linuxx64
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-77a49fc7-4780-4126-98e8-59cdbd017f1b.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+NIX_VERSION = 2.6.0
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+GP_PREVIEW_BROWSER = /ide/bin/remote-cli/gitpod-code --preview
+# environment
+VISUAL = /ide/bin/remote-cli/gitpod-code
+# environment
+NIX_SSL_CERT_FILE = /etc/ssl/certs/ca-certificates.crt
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+rvm_bin_path = /home/gitpod/.rvm/bin
+# environment
+WORKSPACEKIT_WRAP_NETNS = true
+# default
+.LOADED := 
+# environment
+GEM_HOME = /home/gitpod/.rvm/gems/ruby-2.7.6
+# environment
+MANPATH = /home/gitpod/.nix-profile/share/man:/home/gitpod/.nix-profile/share/man:/home/gitpod/.nix-profile/share/man:/home/gitpod/.nix-profile/share/man::/home/linuxbrew/.linuxbrew/share/man
+# environment
+NODE_VERSION = 16.15.1
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PYENV_SHELL = bash
+# environment
+HOME = /home/gitpod
+# environment
+THEIA_WEBVIEW_EXTERNAL_ENDPOINT = webview-{{hostname}}
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 8)
+steps = 1
+# environment
+GITPOD_CLI_APITOKEN = aMWNn3wDHgQh1b8X13Jg8ppBtwgRgdqd
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+HOSTNAME = avnikaraj-gitpodworkspa-ol1m4hrgblw
+# environment
+GRADLE_USER_HOME = /workspace/.gradle/
+# environment
+MAKELEVEL := 0
+# environment
+GEM_PATH = /home/gitpod/.rvm/gems/ruby-2.7.6:/home/gitpod/.rvm/gems/ruby-2.7.6@global
+# environment
+SDKMAN_VERSION = 5.15.0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+IRBRC = /home/gitpod/.rvm/rubies/ruby-2.7.6/.irbrc
+# environment
+SHLVL = 0
+# environment
+NIX_PROFILES = /nix/var/nix/profiles/default /home/gitpod/.nix-profile
+# environment
+GITPOD_GIT_USER_NAME = avnikaraj
+# environment
+JAVA_HOME = /home/gitpod/.sdkman/candidates/java/current
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = gitpod
+# makefile
+.DEFAULT_GOAL := start
+# environment
+GOROOT = /home/gitpod/go
+# environment
+GITPOD_IDE_ALIAS = code
+# environment
+rvm_version = 1.29.12 (latest)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+GITPOD_REPO_ROOT = /workspace/gitpod-workspace
+# environment
+PIP_USER = no
+# environment
+THEIA_RATELIMIT_LOG = 50
+# environment
+THEIA_MINI_BROWSER_HOST_PATTERN = browser-{{hostname}}
+# environment
+GITPOD_GIT_USER_EMAIL = akaraj@unitsystem.net
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+GITPOD_PREVENT_METADATA_ACCESS = true
+# environment
+GITPOD_HOST = https://gitpod.io
+# makefile (from 'Makefile', line 3)
+seed = seed
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /home/gitpod/.nvm
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+rvm_user_install_flag = 1
+# environment
+BROWSER = /ide/bin/helpers/browser.sh
+# environment
+GITPOD_MEMORY = 3435
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# environment
+GITPOD_CODE_HOST = https://gitpod.io
+# environment
+HOMEBREW_NO_AUTO_UPDATE = 1
+# automatic
+<F = $(notdir $<)
+# environment
+PIPENV_VENV_IN_PROJECT = true
+# environment
+TRIGGER_REBUILD = 1
+# environment
+GP_EXTERNAL_BROWSER = /ide/bin/remote-cli/gitpod-code --openExternal
+# environment
+SDKMAN_CANDIDATES_DIR = /home/gitpod/.sdkman/candidates
+# environment
+EDITOR = /ide/bin/remote-cli/gitpod-code
+# environment
+PWD = /workspace/gitpod-workspace
+# environment
+LC_ALL = C
+# environment
+GITPOD_WORKSPACE_CONTEXT = {"isFile":false,"path":"","title":"avnikaraj/gitpod-workspace - main","ref":"main","refType":"branch","revision":"02d444358fe3a12b19bbeafcf41331e63662b500","repository":{"cloneUrl":"https://github.com/avnikaraj/gitpod-workspace.git","host":"github.com","name":"gitpod-workspace","owner":"avnikaraj","private":false,"fork":{"parent":{"cloneUrl":"https://github.com/marcopeg/gitpod-workspace.git","host":"github.com","name":"gitpod-workspace","owner":"marcopeg","private":false}}},"normalizedContextURL":"https://github.com/avnikaraj/gitpod-workspace","checkoutLocation":"gitpod-workspace","upstreamRemoteURI":"https://github.com/marcopeg/gitpod-workspace.git"}
+# environment
+JAVA_TOOL_OPTIONS =  -Xmx3435m
+# automatic
+^F = $(notdir $^)
+# environment
+rvm_prefix = /home/gitpod
+# default
+SUFFIXES := 
+# environment
+APACHE_DOCROOT_IN_REPO = public
+# environment
+PYENV_VIRTUALENV_INIT = 1
+# environment
+NGINX_DOCROOT_IN_REPO = public
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+rvm_loaded_flag = 1
+# environment
+GITPOD_INSTANCE_ID = 218d0704-826b-44b8-9e68-1da772a6617b
+# environment
+GITPOD_WORKSPACE_URL = https://avnikaraj-gitpodworkspa-ol1m4hrgblw.ws-eu47.gitpod.io
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PYTHONUSERBASE = /workspace/.pip-modules
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+MY_RUBY_HOME = /home/gitpod/.rvm/rubies/ruby-2.7.6
+# variable set hash-table stats:
+# Load=140/1024=14%, Rehash=0, Collisions=19/167=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2346, inode 470138847): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+stop:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 22):
+	@echo "Stopping the project..."
+	@docker-compose down
+
+migrate-up:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 66):
+	@hasura migrate apply --project hasura-ecomm --database-name default --up $(steps)
+
+clear: stop
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 29):
+	@echo "Destroy local data..."
+	@sudo rm -rf .docker-data
+
+migrate-down:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	@hasura migrate apply --project hasura-ecomm --database-name default --down $(steps)
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+migrate-create:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 76):
+	@hasura migrate create \
+		"$(name)" \
+		--up-sql "SELECT NOW();" \
+		--down-sql "SELECT NOW();" \
+		--database-name default \
+		--project hasura-ecomm
+	# @hasura migrate apply --project hasura-ecomm --database-name default
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 11:30:34
+#  File has been updated.
+#  Successfully updated.
+
+start:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	@echo "Starting the project..."
+	@docker-compose up -d
+	@docker-compose logs -f
+
+seed:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 50):
+	@echo "Seeding the main database from: \"$(seed).sql\"..."
+	@hasura seed apply --project hasura-ecomm --database-name default --file $(seed).sql
+
+migrate:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 59):
+	@hasura migrate apply --project hasura-ecomm --database-name default
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+reset: stop clear start
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+restart: stop start
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+init:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 42):
+	@echo "Applying migrations to all databases..."
+	@hasura migrate apply --project hasura-ecomm --all-databases
+	@echo "Applying Hasura metadata..."
+	@hasura metadata apply --project hasura-ecomm
+	@echo "Seeding the main database from: \"$(seed).sql\"..."
+	@hasura seed apply --project hasura-ecomm --database-name default --file $(seed).sql
+
+logs:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 26):
+	@docker-compose logs -f
+
+migrate-redo:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 72):
+	@hasura migrate apply --project hasura-ecomm --database-name default --down $(steps)
+	@hasura migrate apply --project hasura-ecomm --database-name default --up $(steps)
+
+migrate-status:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 62):
+	@hasura migrate status --project hasura-ecomm --database-name default
+
+# files hash-table stats:
+# Load=18/1024=2%, Rehash=0, Collisions=0/34=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 29 / storage = 269 B / avg = 9 B
+# current buf: size = 8162 B / used = 269 B / count = 29 / avg = 9 B
+
+# strcache performance: lookups = 53 / hit rate = 45%
+# hash-table stats:
+# Load=29/8192=0%, Rehash=0, Collisions=1/53=2%
+# Finished Make data base on Wed Jun  8 18:07:20 2022
+
+ 
+make: *** No rule to make target 'all'.  Stop.
+
